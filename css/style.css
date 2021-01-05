@@ -1,4 +1,53 @@
-h1 {
-  color: #ff0000;
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.page-light {
+  background-color: #F9F6F1;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__item {
+  margin-right: 25px;
+  padding-right: 10px;
+  list-style-type: none;
+}
+
+.nav__link {
+  font-size: 14px;
+  color: #212121;
+  text-decoration: none;
+}
+
+.cart {
+  background-image: url(img/icons/pointer.svg);
 }
 /*# sourceMappingURL=style.css.map */

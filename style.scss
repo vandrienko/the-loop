@@ -7,5 +7,46 @@ $dark-gray: #8D8D8D;
 $important: #D84033;
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.page {
+}
+.page-light {
+  background-color: $light;
+}
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__list {
+    display: flex;
+  }
+  &__item {
+    margin-right: 25px;
+    padding-right: 10px;
+    list-style-type: none;
+  }
+  &__link {
+    font-size: 14px;
+    color: $dark;
+    text-decoration: none;
+  }
+}
+
+.cart {
+ background-image: url(img/icons/pointer.svg);
+
+		&__count {
+		}
 }
