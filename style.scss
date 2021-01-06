@@ -15,9 +15,16 @@ ul {
   padding-left: 0;
 }
 
-.page-light {
-  background-color: $light;
+.page{
+  &__light {
+    background-color: $light;
+  }
+
+  &__dark {
+    background-color: $dark;
+  }
 }
+
 
 .wrapper {
   max-width: 1110px;
@@ -74,7 +81,7 @@ ul {
 .main {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 120px;
+  padding-bottom: 123px;
 
   &__item {
     flex-grow: 0;
@@ -88,7 +95,7 @@ ul {
     margin: 0;
     margin-bottom: 28px;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 300;
   }
 
   &__description {
@@ -133,3 +140,27 @@ ul {
   }
 }
 
+.notice {
+ 
+  padding: 46px 0;
+  color: $white;
+
+  text-align: center;
+  &__title {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+  }
+    &__title span {
+    font-weight: 300;
+  }
+
+  &__description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+  }
+}

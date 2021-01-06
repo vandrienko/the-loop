@@ -6,8 +6,12 @@ ul {
   padding-left: 0;
 }
 
-.page-light {
+.page__light {
   background-color: #F9F6F1;
+}
+
+.page__dark {
+  background-color: #212121;
 }
 
 .wrapper {
@@ -78,7 +82,7 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 120px;
+  padding-bottom: 123px;
 }
 
 .main__item {
@@ -94,7 +98,7 @@ ul {
   margin: 0;
   margin-bottom: 28px;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .sale__description {
@@ -137,5 +141,30 @@ ul {
 
 .price__img {
   margin-top: -30px;
+}
+
+.notice {
+  padding: 46px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.notice__title {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.notice__title span {
+  font-weight: 300;
+}
+
+.notice__description {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 26px;
 }
 /*# sourceMappingURL=style.css.map */
