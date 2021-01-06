@@ -9,12 +9,8 @@ $important: #D84033;
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
 ul {
   padding-left: 0;
-}
-
-.page {
 }
 .page-light {
   background-color: $light;
@@ -31,10 +27,12 @@ ul {
   align-items: center;
   &__list {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 40%;
   }
   &__item {
-    margin-right: 25px;
-    padding-right: 10px;
+    margin-right: 15px;
+    padding: 10px 10px 10px 10px;
     list-style-type: none;
   }
   &__link {
@@ -45,8 +43,20 @@ ul {
 }
 
 .cart {
- background-image: url(img/icons/pointer.svg);
-
-		&__count {
-		}
+  padding-left: 44px;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/icons/basket.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  &__count {
+    display: block;
+    padding: 10px 24px;
+    background-image: url(../img/icons/pointer.svg);
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    color: $light;
+    font-size: 12px;
+    font-weight: 700;
+  }
 }
