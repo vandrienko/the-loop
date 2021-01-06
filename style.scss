@@ -5,36 +5,45 @@ $gray: #CBCFD4;
 $light-gray:#F4F4F4;
 $dark-gray: #8D8D8D;
 $important: #D84033;
+$white: #fff;
 
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 ul {
   padding-left: 0;
 }
+
 .page-light {
   background-color: $light;
 }
+
 .wrapper {
   max-width: 1110px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 147px;
+
   &__list {
     display: flex;
     flex-wrap: wrap;
     max-width: 40%;
   }
+
   &__item {
     margin-right: 15px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 0px;
     list-style-type: none;
   }
+
   &__link {
     font-size: 14px;
     color: $dark;
@@ -49,6 +58,7 @@ ul {
   background-image: url(../img/icons/basket.svg);
   background-repeat: no-repeat;
   background-position: 0 center;
+
   &__count {
     display: block;
     padding: 10px 24px;
@@ -60,3 +70,66 @@ ul {
     font-weight: 700;
   }
 }
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+
+  &__item {
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 50%;
+  }
+}
+
+.sale {
+  &__title {
+    margin: 0;
+    margin-bottom: 28px;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  &__description {
+    margin: 0;
+    padding-bottom: 60px;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.btn {
+  padding: 18px 30px;
+  text-transform: uppercase;
+  background-color: $accent;
+  text-decoration: none;
+  color:$white;
+}
+.price {
+  position: relative;
+
+  &__old {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__new {
+    margin: 0;
+    position: absolute;
+    right: 15px;
+    top: 49px;
+    font-size: 42px;
+    font-weight: 700;
+    color: $important;
+  }
+
+  &__img {
+    margin-top: -30px;
+  }
+}
+
