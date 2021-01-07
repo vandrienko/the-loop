@@ -374,14 +374,18 @@ ul {
 }
 
 .copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 0;
+  border-bottom: $white 1px solid ;
+  color: $dark;
 
-  // .copyright__text
-
-  &__text {
-  }
-
-  // .copyright__policy
-
+  &__text,
   &__policy {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
   }
 }

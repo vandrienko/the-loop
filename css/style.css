@@ -403,4 +403,24 @@ ul li {
 .social__link img {
   margin-right: 10px;
 }
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 28px 0;
+  border-bottom: #fff 1px solid;
+  color: #212121;
+}
+
+.copyright__text, .copyright__policy {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
 /*# sourceMappingURL=style.css.map */
