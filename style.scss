@@ -15,7 +15,7 @@ ul {
   padding-left: 0;
 }
 
-.page{
+.page {
   &__light {
     background-color: $light;
   }
@@ -113,6 +113,10 @@ ul {
   background-color: $accent;
   text-decoration: none;
   color:$white;
+
+  &__xs {
+    padding: 6px 30px;
+  }
 }
 .price {
   position: relative;
@@ -141,11 +145,10 @@ ul {
 }
 
 .notice {
- 
   padding: 46px 0;
   color: $white;
-
   text-align: center;
+
   &__title {
     text-transform: uppercase;
     font-style: normal;
@@ -153,7 +156,9 @@ ul {
     font-size: 30px;
     line-height: 37px;
   }
-    &__title span {
+
+    
+  &__title span {
     font-weight: 300;
   }
 
@@ -164,3 +169,44 @@ ul {
     line-height: 26px;
   }
 }
+
+.collection {
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    padding: 60px 0px 68px 20px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 50px) bottom;
+  }
+
+  &__man {
+    background-image: url('../img/man-col.png');
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    
+  }
+
+  &__description {
+    margin-bottom: 35px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__woman {
+    background-image: url('../img/woman-col.png');
+    background-position: calc(100% - 50px) bottom;
+  }
+}
+
