@@ -303,3 +303,125 @@ ul {
   }
 }
 
+.footer {
+
+  // .footer__wrapper
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: $white;
+  }
+
+  // .footer__img
+
+  &__img {
+  }
+
+  // .footer__list
+
+  &__list {
+    display: flex;
+  }
+
+  // .footer__item
+
+  &__item {
+    margin-right: 30px;
+    
+  }
+}
+.links {
+
+  // .links__title
+
+  &__title {
+  }
+
+  // .links__list
+
+  &__list {
+  }
+}
+.link {
+
+  // .link__item
+
+  &__item {
+    & a {
+      color: $white;
+    }
+  }
+  
+}
+.categories {
+
+  // .categories__title
+
+  &__title {
+  }
+
+  // .categories__list
+
+  &__list {
+  }
+}
+.useful {
+
+  // .useful__links
+
+  &__links {
+  }
+
+  // .useful__title
+
+  &__title {
+  }
+
+  // .useful__list
+
+  &__list {
+  }
+
+  // .useful__link-item
+
+  &__link-item {
+  }
+}
+.social {
+
+  // .social__title
+
+  &__title {
+  }
+
+  // .social__list
+
+  &__list {
+  }
+
+  // .social__item
+
+  &__item {
+  }
+
+  // .social__link
+
+  &__link {
+  }
+
+  // .social__link--vkontakte
+
+  &__link--vkontakte {
+  }
+
+  // .social__link--facebook
+
+  &__link--facebook {
+  }
+
+  // .social__link--instagram
+
+  &__link--instagram {
+  }
+}

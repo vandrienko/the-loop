@@ -324,4 +324,28 @@ ul li {
   line-height: 22px;
   color: #D7B399;
 }
+
+.footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__item {
+  margin-right: 30px;
+}
+
+.link__item a {
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
