@@ -251,7 +251,7 @@ ul {
     width: 100%;
     margin-left: -7px;
     margin-right: -7px;
-    margin-bottom: 124px;
+    margin-bottom: 77px;
   }
 
   &__item {
@@ -304,124 +304,84 @@ ul {
 }
 
 .footer {
-
-  // .footer__wrapper
+  color: $white;
 
   &__wrapper {
     display: flex;
     justify-content: space-between;
-    color: $white;
+    padding: 82px 0px 69px 0px;
   }
-
-  // .footer__img
 
   &__img {
   }
 
-  // .footer__list
-
   &__list {
     display: flex;
-  }
-
-  // .footer__item
-
-  &__item {
-    margin-right: 30px;
     
   }
-}
-.links {
-
-  // .links__title
-
-  &__title {
-  }
-
-  // .links__list
-
-  &__list {
-  }
-}
-.link {
-
-  // .link__item
 
   &__item {
-    & a {
-      color: $white;
-    }
-  }
-  
-}
-.categories {
-
-  // .categories__title
-
-  &__title {
-  }
-
-  // .categories__list
-
-  &__list {
+    margin-left: 72px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 150px;
   }
 }
-.useful {
 
-  // .useful__links
-
-  &__links {
-  }
-
-  // .useful__title
-
-  &__title {
-  }
-
-  // .useful__list
-
-  &__list {
-  }
-
-  // .useful__link-item
-
-  &__link-item {
-  }
+.links__title,
+.categories__title,
+.useful__title,
+.social__title {
+  margin: 0;
+  margin-bottom: 20px;
+  color: $white;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-.social {
 
-  // .social__title
+.links__list,
+.categories__list,
+.useful__list,
+.social__list {
+  margin: 0;
+}
 
-  &__title {
+.link__item,
+.categories__link-item,
+.useful__link-item,
+.social__item {
+  margin-bottom: 10px;
+}
+
+.link__item a,
+.categories__link-item a,
+.useful__link-item a,
+.social__link {
+  display: flex;
+  align-items: center;
+  color:$gray;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.social__link img {
+  margin-right: 10px;
+}
+
+.copyright {
+
+  // .copyright__text
+
+  &__text {
   }
 
-  // .social__list
+  // .copyright__policy
 
-  &__list {
-  }
-
-  // .social__item
-
-  &__item {
-  }
-
-  // .social__link
-
-  &__link {
-  }
-
-  // .social__link--vkontakte
-
-  &__link--vkontakte {
-  }
-
-  // .social__link--facebook
-
-  &__link--facebook {
-  }
-
-  // .social__link--instagram
-
-  &__link--instagram {
+  &__policy {
   }
 }
